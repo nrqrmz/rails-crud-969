@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   # code in silo
 
   get 'restaurants', to: 'restaurants#index'
+  get 'restaurants/:id', to: 'restaurants#show'
 end
