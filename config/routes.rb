@@ -3,4 +3,8 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+
+  # code in silo
+
+  get 'restaurants', to: 'restaurants#index'
 end
